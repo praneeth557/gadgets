@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "18",
+	"height" 	  : 5.45,
+	"width"  	  : 2.7,
+	"depth"	 	  : 0.3,
+	"weight"	  : 4.58,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.0.2 LOLLIPOP",
+	"processor"   : 1.7,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 5.0,
+	"resolution"  : "1080*1920",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/18-xiaomi-mi4-1.png",
+					"Pictures/18-xiaomi-mi4-2.png",
+					"Pictures/18-xiaomi-mi4-3.png",
+					"Pictures/18-xiaomi-mi4-4.png"
+					]
+	}]

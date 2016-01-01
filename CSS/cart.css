@@ -1,0 +1,21 @@
+/*Cart styling*/
+ #cartHead{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 25px;
+		margin-bottom : 0;
+		text-align : center;
+		margin-top : 20px;
+		font-weight: bold;
+	}
+ #cartBind{
+	margin : 15px 0;
+ }
+ #cartBindHead{
+	font-size : 20px;
+	text-align : center;
+ }
+ 
+ #cartTotal span{
+	font-size : 25px;
+	font-weight : bold;
+ }

@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "23",
+	"height" 	  : 5.17,
+	"width"  	  : 3.56,
+	"depth"	 	  : 0.36,
+	"weight"	  : 7.23,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 32,
+	"keyboard"    : "TOUCH & KEYBOARD",
+	"os"		  : "BLACKBERRY 10",
+	"processor"   : 1.5,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 5.0,
+	"resolution"  : "1440*1440",
+	"screen"	  : 4.5,
+	"images"	  : [
+					"Pictures/23-blackberry-passport-1.png",
+					"Pictures/23-blackberry-passport-2.png",
+					"Pictures/23-blackberry-passport-3.png",
+					"Pictures/23-blackberry-passport-4.png"
+					]
+	}]

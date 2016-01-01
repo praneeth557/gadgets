@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "7",
+	"height" 	  : 5.86,
+	"width"  	  : 3.0,
+	"depth"	 	  : 0.32,
+	"weight"	  : 4.4,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 32,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.1 LOLLIPOP",
+	"processor"   : 2.1,
+	"rcamera"	  : 16.0,
+	"fcamera"	  : 8.0,
+	"resolution"  : "1440*2560",
+	"screen"	  : 5.5,
+	"images"	  : [
+					"Pictures/7-lg-g4-1.png",
+					"Pictures/7-lg-g4-2.png",
+					"Pictures/7-lg-g4-3.png",
+					"Pictures/7-lg-g4-4.png"
+					]
+	}]

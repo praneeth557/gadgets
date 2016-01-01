@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			table tr th,td{
+				width : 100px;
+				text-align: left;
+			}
+			div{
+				margin-top: 40px;
+					}
+		</style>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="Javascript/angular.js"></script>
+		<script type="text/javascript" src="Javascript/route.min.js"></script>
+		<script type="text/javascript" src="testin.js"></script>
+	</head>
+	<body ng-app="testApp">
+		<div ng-controller="myCtrl1">
+			<h2>STUDENTS</h2>
+			<table>
+				<tr><th>Name</th><th>Age</th><th>State</th><th>Add</th></tr>
+			</table>
+			<table ng-repeat="x in std">
+				<tr><td>{{x.name}}</d><td>{{x.age}}</td><td>{{x.state}}</td><td><button ng-click="addToCart(x)">Add to Cart</button></td></tr>
+			</table>
+		</div>
+		<hr/>
+		<div ng-controller="myCtrl2">
+			<div>
+			<h2>ADD TO CART</h2>
+			<table>
+				<tr><th>Name</th><th>Age</th><th>State</th><th>Add</th></tr>
+			</table>
+			<table ng-repeat="p in pn">
+				<tr ng-repeat="x in cart"><td>{{x.name}}</td><td>{{x.age}}</td><td>{{x.state}}</th></tr>
+				<tr><td>{{p.city}}</td></tr>
+			</table>
+			</div>
+		</div>
+	</body>
+</html>

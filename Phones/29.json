@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "29",
+	"height" 	  : 5.69,
+	"width"  	  : 2.74,
+	"depth"	 	  : 0.38,
+	"weight"	  : 5.54,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 32,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.0 LOLLIPOP",
+	"processor"   : 2.0,
+	"rcamera"	  : 20.0,
+	"fcamera"	  : 13.0,
+	"resolution"  : "1080*1920",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/29-htc-onem9-1.png",
+					"Pictures/29-htc-onem9-2.png",
+					"Pictures/29-htc-onem9-3.png",
+					"Pictures/29-htc-onem9-4.png"
+					]
+	}]

@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "31",
+	"height" 	  : 5.72,
+	"width"  	  : 2.76,
+	"depth"	 	  : 0.39,
+	"weight"	  : 5.33,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 32,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.2 KITKAT",
+	"processor"   : 2.0,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 5.0,
+	"resolution"  : "1080*1920",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/31-htc-butterfly2-1.png",
+					"Pictures/31-htc-butterfly2-2.png",
+					"Pictures/31-htc-butterfly2-3.png",
+					"Pictures/31-htc-butterfly2-4.png"
+					]
+	}]

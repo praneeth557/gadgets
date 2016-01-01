@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "4",
+	"height" 	  : 6,
+	"width"  	  : 3.1,
+	"depth"	 	  : 0.4,
+	"weight"	  : 4.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 32,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.4 KITKAT",
+	"processor"   : 2.5,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 3.7,
+	"resolution"  : "1929*1080",
+	"screen"	  : 5.7,
+	"images"	  : [
+					"Pictures/4-note4-1.png",
+					"Pictures/4-note4-2.png",
+					"Pictures/4-note4-3.png",
+					"Pictures/4-note4-4.png"
+					]
+	}]

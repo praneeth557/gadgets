@@ -1,0 +1,76 @@
+<div class="container" ng-controller="cartCtrl">
+	<!--Cart Heading-->
+	<div id="cartHead">
+		<span>SHOPPING CART</span>
+	</div>
+	<hr/>
+	<!--Cart Items-->
+	<div id="cartItems">
+		<div class="row" id="cartBindHead">
+            <div class="text-left col-xs-1 cartProduct">
+                <p>Sno.</p>
+            </div>
+			<div class="text-left col-xs-1 cartProduct">
+
+			</div>
+			<div class="text-left col-xs-3 cartProduct">
+				<p>Product</p>
+			</div>
+			<div class="text-left col-xs-2 cartPrice">
+				<p>Price</p>
+			</div>
+			<div class="text-left col-xs-1 cartQty">
+				<p>Quantity</p>
+			</div>
+            <div class="text-left col-xs-2 cartCost">
+                <p>Cost</p>
+            </div>
+			<div class="text-left col-xs-2 cartRemove">
+				<p>Remove</p>
+			</div>
+		</div>
+		<hr/>
+		
+		<!--binding data-->
+		<div class="row" id="cartBind" ng-repeat="c in cart">
+            <div class="text-center col-xs-1 cartProduct">
+                <h4>{{$index+1}}</h4>
+            </div>
+			<div class="text-left col-xs-1 cartProduct">
+				<img src="{{c.image}}" alt="{{c.alt}}" width="30" height="40">
+			</div>
+			<div class="text-center col-xs-3 cartProduct">
+				<h4>{{c.phone}}</h4>
+			</div>
+			<div class="text-center col-xs-2 cartPrice">
+				<h4>{{c.price | currency}}</h4>
+			</div>
+			<div class="col-xs-1 text-center cartQty">
+                <input type="number" style="width:45px;margin-top:5px;" ng-model="c.qty"/>
+			</div>
+            <div class="text-center col-xs-2 cartCost">
+                <h4>{{(c.price)*(c.qty) | currency}}</h4>
+            </div>
+			<div class="text-center col-xs-2 cartRemove">
+				<button type="button" class="btn btn-primary btn-sm" ng-click="removeItem($index)">Remove</button>
+			</div>
+		</div>
+		<div ng-if="cart.length==0" class="col-xs-12">
+			<h3 class="col-xs-10 col-xs-offset-2">Your Cart is Empty!</h3>
+			<hr class="col-xs-12" />
+		</div>
+		<hr/>
+	</div>
+	
+	<!--Cart Total-->
+	<div class="col-xs-4 col-xs-offset-8" id="cartTotal">
+		<table class="table">
+			<tr><td style="border-top:none !important;"><h4 >Sub-Total :</h4></td><td style="border-top:none !important;"><h4>{{subTotal() | currency}}</h4></td></tr>
+			<tr><td><h4>Tax(8.6%) :</h4></td><td><h4>{{(subTotal() * 8.6)/100 | currency}}</h4></td></tr>
+			<tr><td><h3>Total:</h3></td><td><h3>{{(subTotal()+((subTotal() * 8.6)/100)) | currency}}</h3></td></tr>
+		</table>
+		<div class="col-xs-6 col-xs-offset-6 pull-right">
+		<a href="#/confirm" role="button" type="button" class="btn btn-primary btn-lg" ng-click="confirm()">Confirm</a>
+		</div>
+	</div>
+</div>

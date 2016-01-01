@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "28",
+	"height" 	  : 5.51,
+	"width"  	  : 2.75,
+	"depth"	 	  : 0.39,
+	"weight"	  : 5.57,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 8,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4 KITKAT",
+	"processor"   : 1.2,
+	"rcamera"	  : 5.0,
+	"fcamera"	  : "1.2",
+	"resolution"  : "480*854",
+	"screen"	  : 4.7,
+	"images"	  : [
+					"Pictures/28-htc-desire510-1.png",
+					"Pictures/28-htc-desire510-2.png",
+					"Pictures/28-htc-desire510-3.png",
+					"Pictures/28-htc-desire510-4.png"
+					]
+	}]

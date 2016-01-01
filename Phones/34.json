@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "3",
+	"height" 	  : 5.39,
+	"width"  	  : 2.78,
+	"depth"	 	  : 0.55,
+	"weight"	  : 7.05,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "KEYPAD",
+	"os"		  : "ANDROID 4.4.2 KITKAT",
+	"processor"   : 1.4,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 2.0,
+	"resolution"  : "720*1280",
+	"screen"	  : 4.5,
+	"images"	  : [
+					"Pictures/34-kyocera-duraxv-1.png",
+					"Pictures/34-kyocera-duraxv-2.png",
+					"Pictures/34-kyocera-duraxv-3.png",
+					"Pictures/34-kyocera-duraxv-4.png"
+					]
+	}]

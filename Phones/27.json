@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "27",
+	"height" 	  : 4.8,
+	"width"  	  : 2.5,
+	"depth"	 	  : 0.47,
+	"weight"	  : 5.0,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 4,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4 KITKAT",
+	"processor"   : 1.2,
+	"rcamera"	  : 5.0,
+	"fcamera"	  : "NO",
+	"resolution"  : "540*960",
+	"screen"	  : 4.3,
+	"images"	  : [
+					"Pictures/27-motorola-motoe-1.png",
+					"Pictures/27-motorola-motoe-2.png",
+					"Pictures/27-motorola-motoe-3.png",
+					"Pictures/27-motorola-motoe-4.png"
+					]
+	}]

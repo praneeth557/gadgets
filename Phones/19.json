@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "19",
+	"height" 	  : 5.73,
+	"width"  	  : 2.86,
+	"depth"	 	  : 0.29,
+	"weight"	  : 4.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 8,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.0 LOLLIPOP",
+	"processor"   : 1.5,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 5.0,
+	"resolution"  : "720*1280",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/19-sony-xperia-m4aqua-1.png",
+					"Pictures/19-sony-xperia-m4aqua-2.png",
+					"Pictures/19-sony-xperia-m4aqua-3.png",
+					"Pictures/19-sony-xperia-m4aqua-4.png"
+					]
+	}]

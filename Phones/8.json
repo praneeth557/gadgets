@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "8",
+	"height" 	  : 4.6,
+	"width"  	  : 2.5,
+	"depth"	 	  : 0.32,
+	"weight"	  : 4.4,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.3 JELLY BEAN",
+	"processor"   : 1.2,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 1.3,
+	"resolution"  : "1280*720",
+	"screen"	  : 4.8,
+	"images"	  : [
+					"Pictures/8-lg-lancet-1.png",
+					"Pictures/8-lg-lancet-2.png",
+					"Pictures/8-lg-lancet-3.png",
+					"Pictures/8-lg-lancet-4.png"
+					]
+	}]

@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "2",
+	"height" 	  : 5.7,
+	"width"  	  : 2.8,
+	"depth"	 	  : 0.3,
+	"weight"	  : 4.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 32,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.0 LOLLIPOP",
+	"processor"   : 2.1,
+	"rcamera"	  : 16.0,
+	"fcamera"	  : 5.0,
+	"resolution"  : "1440*2560",
+	"screen" 	  : 5.1,
+	"images"	  : [
+					"Pictures/2-s6-1.png",
+					"Pictures/2-s6-2.png",
+					"Pictures/2-s6-3.png",
+					"Pictures/2-s6-4.png"
+					]
+	}]

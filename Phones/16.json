@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "16",
+	"height" 	  : 5.2,
+	"width"  	  : 2.7,
+	"depth"	 	  : 0.5,
+	"weight"	  : 4.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 64,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.0 LOLLIPOP",
+	"processor"   : 1.5,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 4.0,
+	"resolution"  : "1440*2560",
+	"screen"	  : 5.7,
+	"images"	  : [
+					"Pictures/16-xiaomi-notepro-1.png",
+					"Pictures/16-xiaomi-notepro-2.png",
+					"Pictures/16-xiaomi-notepro-3.png",
+					"Pictures/16-xiaomi-notepro-4.png"
+					]
+	}]

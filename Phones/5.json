@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "5",
+	"height" 	  : 6,
+	"width"  	  : 3.25,
+	"depth"	 	  : 0.38,
+	"weight"	  : 5.9,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.3 JELLY BEAN",
+	"processor"   : 2.3,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 3.0,
+	"resolution"  : "1929*1080",
+	"screen"	  : 5.7,
+	"images"	  : [
+					"Pictures/5-note3-1.png",
+					"Pictures/5-note3-2.png",
+					"Pictures/5-note3-3.png",
+					"Pictures/5-note3-4.png"
+					]
+	}]

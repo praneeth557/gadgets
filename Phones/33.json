@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "33",
+	"height" 	  : 6.0,
+	"width"  	  : 3.1,
+	"depth"	 	  : 0.43,
+	"weight"	  : 6.0,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.2 KITKAT",
+	"processor"   : 1.8,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 5.0,
+	"resolution"  : "1920*1080",
+	"screen"	  : 5.5,
+	"images"	  : [
+					"Pictures/33-asus-zenfone-1.png",
+					"Pictures/33-asus-zenfone-2.png",
+					"Pictures/33-asus-zenfone-3.png",
+					"Pictures/33-asus-zenfone-4.png"
+					]
+	}]

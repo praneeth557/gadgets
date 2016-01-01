@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "25",
+	"height" 	  : 5.3,
+	"width"  	  : 2.7,
+	"depth"	 	  : 0.35,
+	"weight"	  : 4.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "WINDOWS 8",
+	"processor"   : 1.2,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 1.2,
+	"resolution"  : "1280*720",
+	"screen"	  : 4.7,
+	"images"	  : [
+					"Pictures/25-nokia-lumia735-1.png",
+					"Pictures/25-nokia-lumia735-2.png",
+					"Pictures/25-nokia-lumia735-3.png",
+					"Pictures/25-nokia-lumia735-4.png"
+					]
+	}]

@@ -1,0 +1,12 @@
+[{
+	"name":"John",
+	"age":"32",
+	"state":"NY"
+	},
+	{
+	"name":"Smith",
+	"age":"43",
+	"state":"CA"
+	},
+					{"name":"Micheal","age":"27","state":"IL"},
+					{"name":"Alister","age":"21","state":"TX"}]

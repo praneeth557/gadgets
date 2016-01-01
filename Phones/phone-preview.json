@@ -1,0 +1,316 @@
+[{
+	"phId"  : "1",
+	"image" : "Pictures/1-s6-edge-1.png",
+	"alt"	: "SAMSUNG GALAXY S6 EDGE",
+	"brand" : "SAMSUNG",
+	"phone" : "SAMSUNG GALAXY S6 EDGE",
+	"totalQty" : 10,
+	"price" : 899.99
+},
+	{
+		"phId" 	: "2",
+		"image" : "Pictures/2-s6-1.png",
+		"alt"	: "SAMSUNG GALAXY S6",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY S6",
+		"totalQty" : 17,
+		"price" : 649.99
+	},
+	{
+		"phId"  : "3",
+		"image" : "Pictures/3-s5-1.png",
+		"alt"	: "SAMSUNG GALAXY S5",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY S5",
+		"totalQty" : 8,
+		"price" : 549.99
+	},
+	{
+		"phId"  : "4",
+		"image" : "Pictures/4-note4-1.png",
+		"alt"	: "SAMSUNG GALAXY NOTE 4",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY NOTE 4",
+		"totalQty" : 10,
+		"price" : 769.99
+	},
+
+	{
+		"phId"  : "5",
+		"image" : "Pictures/5-note3-1.png",
+		"alt"	: "SAMSUNG GALAXY NOTE 3",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY NOTE 3",
+		"totalQty" : 12,
+		"price" : 599.99
+	},
+	{
+		"phId"  : "6",
+		"image" : "Pictures/6-note-edge-1.png",
+		"alt"	: "SAMSUNG GALAXY NOTE EDGE",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY NOTE EDGE",
+		"totalQty" : 13,
+		"price" : 999.99
+	},
+	{
+		"phId"  : "7",
+		"image" : "Pictures/7-lg-g4-1.png",
+		"alt"	: "LG G4",
+		"brand" : "LG",
+		"phone" : "LG G4",
+		"totalQty" : 14,
+		"price" : 609.99
+	},
+	{
+		"phId"  : "8",
+		"image" : "Pictures/8-lg-lancet-1.png",
+		"alt"	: "LG LANCET",
+		"brand" : "LG",
+		"phone" : "LG LANCET",
+		"totalQty" : 10,
+		"price" : 199.99
+	},
+
+	{
+		"phId"  : "9",
+		"image" : "Pictures/9-lg-optimus-1.png",
+		"alt"	: "G OPTIMUS G PRO",
+		"brand" : "LG",
+		"phone" : "LG OPTIMUS G PRO",
+		"totalQty" : 10,
+		"price" : 349.99
+	},
+	{
+		"phId"  : "10",
+		"image" : "Pictures/10-lg-g3-1.png",
+		"alt"	: "LG G3",
+		"brand" : "LG",
+		"phone" : "LG G3",
+		"totalQty" : 3,
+		"price" : 449.99
+	},
+	{
+		"phId"  : "11",
+		"image" : "Pictures/11-apple-iphone6-1.png",
+		"alt"	: "APPLE IPHONE 6",
+		"brand" : "APPLE",
+		"phone" : "APPLE IPHONE 6",
+		"totalQty" : 20,
+		"price" : 749.99
+	},
+	{
+		"phId"  : "12",
+		"image" : "Pictures/12-apple-iphone6+-1.png",
+		"alt"	: "APPLE IPHONE 6+",
+		"brand" : "APPLE",
+		"phone" : "APPLE IPHONE 6+",
+		"totalQty" : 10,
+		"price" : 849.99
+	},
+
+	{
+		"phId"  : "13",
+		"image" : "Pictures/13-apple-iphone5s-1.png",
+		"alt"	: "APPLE IPHONE 5S",
+		"brand" : "APPLE",
+		"phone" : "APPLE IPHONE 5S",
+		"totalQty" : 14,
+		"price" : 599.99
+	},
+	{
+		"phId"  : "14",
+		"image" : "Pictures/14-apple-iphone5c-1.png",
+		"alt"	: "APPLE IPHONE 5C",
+		"brand" : "APPLE",
+		"phone" : "APPLE IPHONE 5C",
+		"totalQty" : 17,
+		"price" : 399.99
+	},
+	{
+		"phId"  : "15",
+		"image" : "Pictures/15-alcatel-onetouch-1.png",
+		"alt"	: "ALCATEL ONE TOUCH IDOL 3",
+		"brand" : "ALCATEL",
+		"phone" : "ALCATEL ONE TOUCH IDOL 3",
+		"totalQty" : 10,
+		"price" : 159.99
+	},
+	{
+		"phId"  : "16",
+		"image" : "Pictures/16-xiaomi-notepro-1.png",
+		"alt"	: "XIAOMI MI NOTE PRO",
+		"brand" : "XIAOMI",
+		"phone" : "XIAOMI MI NOTE PRO",
+		"totalQty" : 12,
+		"price" : 749.99
+	},
+
+	{
+		"phId"  : "17",
+		"image" : "Pictures/17-xiaomi-redmi-1.png",
+		"alt"	: "XIAOMI RED MI 2",
+		"brand" : "XIAOMI",
+		"phone" : "XIAOMI RED MI 2",
+		"totalQty" : 2,
+		"price" : 649.99
+	},
+	{
+		"phId"  : "18",
+		"image" : "Pictures/18-xiaomi-mi4-1.png",
+		"alt"	: "XIAOMI MI 4I",
+		"brand" : "XIAOMI",
+		"phone" : "XIAOMI MI 4I",
+		"totalQty" : 3,
+		"price" : 599.99
+	},
+	{
+		"phId"  : "19",
+		"image" : "Pictures/19-sony-xperia-m4aqua-1.png",
+		"alt"	: "SONY XPERIA M4 AQUA",
+		"brand" : "SONY",
+		"phone" : "SONY XPERIA M4 AQUA",
+		"totalQty" : 3,
+		"price" : 449.99
+	},
+
+	{
+		"phId"  : "20",
+		"image" : "Pictures/20-sony-xperia-z3v-1.png",
+		"alt"	: "SONY XPERIA Z3V",
+		"brand" : "SONY",
+		"phone" : "SONY XPERIA Z3V",
+		"totalQty" : 8,
+		"price" : 499.99
+	},
+
+	{
+		"phId"  : "21",
+		"image" : "Pictures/21-sony-xperia-z3compact-1.png",
+		"alt"	: "SONY XPERIA Z3 COMPACT",
+		"brand" : "SONY",
+		"phone" : "SONY XPERIA Z3 COMPACT",
+		"totalQty" : 6,
+		"price" : 399.99
+	},
+	{
+		"phId"  : "22",
+		"image" : "Pictures/22-blackberry-leap-1.png",
+		"alt"	: "BLACKBERRY LEAP",
+		"brand" : "BLACKBERRY",
+		"phone" : "BLACKBERRY LEAP",
+		"totalQty" : 21,
+		"price" : 299.99
+	},
+	{
+		"phId"  : "23",
+		"image" : "Pictures/23-blackberry-passport-1.png",
+		"alt"	: "BLACKBERRY PASSPORT",
+		"brand" : "BLACKBERRY",
+		"phone" : "BLACKBERRY PASSPORT",
+		"totalQty" : 16,
+		"price" : 549.99
+	},
+	{
+		"phId"  : "24",
+		"image" : "Pictures/24-nokia-lumia640xl-1.png",
+		"alt"	: "MICROSOFT LUMIA 640XL-LTE",
+		"brand" : "MICROSOFT",
+		"phone" : "MICROSOFT NOKIA LUMIA 640XL-LTE",
+		"totalQty" : 13,
+		"price" : 299.99
+	},
+
+	{
+		"phId"  : "25",
+		"image" : "Pictures/25-nokia-lumia735-1.png",
+		"alt"	: "MICROSOFT NOKIA LUMIA 735",
+		"brand" : "MICROSOFT",
+		"phone" : "MICROSOFT NOKIA LUMIA 735",
+		"totalQty" : 15,
+		"price" : 349.99
+	},
+	{
+		"phId"  : "26",
+		"image" : "Pictures/26-motorola-motog-1.png",
+		"alt"	: "MOTOROLA MOTO G",
+		"brand" : "MOTOROLA",
+		"phone" : "MOTOROLA MOTO G",
+		"totalQty" : 7,
+		"price" : 349.99
+	},
+	{
+		"phId"  : "27",
+		"image" : "Pictures/27-motorola-motoe-1.png",
+		"alt"	: "MOTOROLA MOTO E",
+		"brand" : "MOTOROLA",
+		"phone" : "MOTOROLA MOTO E",
+		"totalQty" : 2,
+		"price" : 149.99
+	},
+	{
+		"phId"  : "28",
+		"image" : "Pictures/28-htc-desire510-1.png",
+		"alt"	: "HTC DESIRE 510",
+		"brand" : "HTC",
+		"phone" : "HTC DESIRE 510",
+		"totalQty" : 5,
+		"price" : 179.99
+	},
+
+	{
+		"phId"  : "29",
+		"image" : "Pictures/29-htc-onem9-1.png",
+		"alt"	: "HTC ONE M9",
+		"brand" : "HTC",
+		"phone" : "HTC ONE M9",
+		"totalQty" : 20,
+		"price" : 649.99
+	},
+	{
+		"phId"  : "30",
+		"image" : "Pictures/30-htc-desireeye-1.png",
+		"alt"	: "HTC DESIRE EYE",
+		"brand" : "HTC",
+		"phone" : "HTC DESIRE EYE",
+		"totalQty" : 10,
+		"price" : 459.99
+	},
+	{
+		"phId"  : "31",
+		"image" : "Pictures/31-htc-butterfly2-1.png",
+		"alt"	: "HTC BUTTERFLY 2",
+		"brand" : "HTC",
+		"phone" : "HTC BUTTERFLY 2",
+		"totalQty" : 12,
+		"price" : 699.99
+	},
+	{
+		"phId"  : "32",
+		"image" : "Pictures/32-google-nexus6-1.png",
+		"alt"	: "GOOGLE NEXUS 6",
+		"brand" : "GOOGLE",
+		"phone" : "GOOGLE NEXUS 6",
+		"totalQty" : 8,
+		"price" : 599.99
+	},
+
+	{
+		"phId"  : "33",
+		"image" : "Pictures/33-asus-zenfone-1.png",
+		"alt"	: "ASUS ZEN FONE 2",
+		"brand" : "ASUS",
+		"phone" : "ASUS ZEN FONE 2",
+		"totalQty" : 20,
+		"price" : 339.99
+	},
+	{
+		"phId"  : "34",
+		"image" : "Pictures/34-kyocera-duraxv-1.png",
+		"alt"	: "KYOCERA DURA XV",
+		"brand" : "KYOCERA",
+		"phone" : "KYOCERA DURA XV",
+		"totalQty" : 10,
+		"price" : 299.99
+	}
+]

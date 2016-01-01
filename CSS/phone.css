@@ -1,0 +1,129 @@
+/*Phone main*/
+	#ph-main{
+	float: left;
+	margin-top: 10px;
+	}
+	#ph-main div{
+		height :300px;
+		border : none;
+	}
+	#ph-main div img{
+		height : 150px;
+	}
+	#ph-main div div h4, p{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+	#ph-main div div h4{
+		height: 40px;
+	}
+	#ph-main div div p a{
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	
+	.dropdown select{
+		width: 200px;
+		height: 35px;
+		text-align: left;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	#search-bar{
+		margin-top: 20px;
+	}
+	
+	/*Phone-specs styling*/
+	
+	#phSpecs{
+		margin : 0px;
+		
+	}
+	#black{
+		background-color : #191919;
+		margin-top : 0px;
+		padding: 0px;
+		color : #E6E6E6;
+	}
+	.phoneHeading{
+		text-align : center;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+		margin-top : 40px;
+	}
+	
+		/*Middle part*/
+	#middle{
+		margin-bottom : 50px;
+	}
+	#images{
+		height : 600px;
+	}
+	#zoomImage iframe{
+		height : 500px;
+		border : none;
+		margin-bottom : 5px;
+	}
+	#smImages ul li{
+		height : 100px;
+		width : 20%;
+		float: left;
+		margin-right : 5px;
+	}
+	#pricing #pbrand{
+		margin-top : 30px;
+	}
+	#pricing #pbrand tr td{
+		text-align : center;
+		padding : 10px;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	#pricing #pbrand tr td button{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	#summary tr{
+		float : left;
+	}
+	#summary tr td{
+		padding :30px;
+	}
+	#summary tr td span{
+		color : #99CC00;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 70px;
+	}
+	#summary tr td span sup{
+		color : #99CC00;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 30px;
+	}
+	
+	/*Specification details*/
+	#spec-details{
+		margin-top: 30px;
+	}
+	#spec-details #specHead{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 25px;
+		margin-bottom : 0;
+	}
+	#spec-details #specBody{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	hr{
+		margin-top : 0;
+	}
+	#spec-details div p{
+		font-size: 23px;
+		font-weight: 100;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		color : #5A5A5A;
+	}

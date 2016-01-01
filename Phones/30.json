@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "30",
+	"height" 	  : 5.97,
+	"width"  	  : 2.91,
+	"depth"	 	  : 0.33,
+	"weight"	  : 5.43,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.4 KITKAT",
+	"processor"   : 2.0,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 13.0,
+	"resolution"  : "1080*1920",
+	"screen"	  : 5.2,
+	"images"	  : [
+					"Pictures/30-htc-desireeye-1.png",
+					"Pictures/30-htc-desireeye-2.png",
+					"Pictures/30-htc-desireeye-3.png",
+					"Pictures/30-htc-desireeye-4.png"
+					]
+	}]

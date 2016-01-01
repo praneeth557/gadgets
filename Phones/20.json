@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "20",
+	"height" 	  : 5.8,
+	"width"  	  : 2.8,
+	"depth"	 	  : 0.3,
+	"weight"	  : 5.3,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.4 KITKAT",
+	"processor"   : 2.5,
+	"rcamera"	  : 20.7,
+	"fcamera"	  : 8.0,
+	"resolution"  : "1929*1080",
+	"screen"	  : 5.2,
+	"images"	  : [
+					"Pictures/20-sony-xperia-z3v-1.png",
+					"Pictures/20-sony-xperia-z3v-2.png",
+					"Pictures/20-sony-xperia-z3v-3.png",
+					"Pictures/20-sony-xperia-z3v-4.png"
+					]
+	}]

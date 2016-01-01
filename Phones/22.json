@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "22",
+	"height" 	  : 5.7,
+	"width"  	  : 2.9,
+	"depth"	 	  : 0.4,
+	"weight"	  : 12.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "BLACKBERRY 10",
+	"processor"   : 1.5,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 2.0,
+	"resolution"  : "1280*720",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/22-blackberry-leap-1.png",
+					"Pictures/22-blackberry-leap-2.png",
+					"Pictures/22-blackberry-leap-3.png",
+					"Pictures/22-blackberry-leap-4.png"
+					]
+	}]

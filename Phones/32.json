@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "32",
+	"height" 	  : 6.27,
+	"width"  	  : 3.27,
+	"depth"	 	  : 0.4,
+	"weight"	  : 6.49,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 64,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 5.1 LOLLIPOP",
+	"processor"   : 2.0,
+	"rcamera"	  : 13.0,
+	"fcamera"	  : 2.0,
+	"resolution"  : "1440*2560",
+	"screen"	  : 6.0,
+	"images"	  : [
+					"Pictures/32-google-nexus6-1.png",
+					"Pictures/32-google-nexus6-2.png",
+					"Pictures/32-google-nexus6-3.png",
+					"Pictures/32-google-nexus6-4.png"
+					]
+	}]

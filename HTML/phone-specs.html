@@ -1,0 +1,132 @@
+<div  ng-controller="phoneDetailCtrl" id="phSpecs" ng-repeat="ph in phone">
+	<div id="black">
+		<div class="container">
+			<!--Heading-->
+			<div class="phoneHeading">
+				<span>{{phoneArray.phone}}</span>
+			</div>
+			<hr/>
+			<!--Images & Price-->
+			<div class="row" id="middle">
+				<div class="col-lg-6 col-md-6 col-sm-7 col-xs-12" id="images" ng-repeat="ph in phone">
+					<div class="col-md-12" id="zoomImage">
+						<iframe width="100%" height="500px" src="{{ph.images[0]}}" name="iframe_a" scrolling="no"></iframe>
+					</div>
+					<div class="col-md-12" id="smImages">
+						<ul>
+							<li class="thumbnail"><a href="{{ph.images[0]}}" target="iframe_a"><img width="50" height="50" src="{{ph.images[0]}}"/></a></li>
+							<li class="thumbnail"><a href="{{ph.images[1]}}" target="iframe_a"><img src="{{ph.images[1]}}"/></a></li>
+							<li class="thumbnail"><a href="{{ph.images[2]}}" target="iframe_a"><img src="{{ph.images[2]}}"/></a></li>
+							<li class="thumbnail"><a href="{{ph.images[3]}}" target="iframe_a"><img src="{{ph.images[3]}}"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1" id="pricing">
+					<table id="pbrand">
+						<tr>
+							<td>PRICE :</td>
+							<td>{{phoneArray.price}}</td>
+						</tr>
+						<tr>
+							<td>BRAND :</td>
+							<td>{{phoneArray.brand}}</td>
+						</tr>
+						<tr>
+							<td><a href="#/cart" class="btn btn-primary" role="button" ng-click="addToCart()" type="submit">Add to Cart</a></td>
+							<td style="font-size:15px;color:#ff0000;">(Only {{phoneArray.totalQty}} left!)</td>
+						</tr>
+					</table>
+					<table id="summary">
+						<tr>
+							<td><span>{{ph.screen}}"</span><br/><p>TOUCH DISPLAY</p></td>
+							<td><span>{{ph.memory}}<sup>GB</sup></span><br/><p>INTERNAL STORAGE</p></td>
+						</tr>
+						<tr>
+							<td><span>{{ph.rcamera}}<sup>MP</sup></span><br/><p>REAR CAMERA</p></td>
+							<td><span>{{ph.processor}}<sup>GHZ</sup></span><br/><p>SPEED PROCESSOR</p></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<!--Specifications-->
+		<div class="container" ng-repeat="ph in phone">
+			<div class="row" id="spec-details">
+				<span id="specHead" class="text-muted">Design</span>
+				<hr/>
+				<div class="col-sm-6 col-xs-12">
+					<span id="specBody" class="col-xs-6" class="text-muted">SIZE</span><br/>
+					<p>Height : {{ph.height}} Inches</p><br/>
+					<p>Width : {{ph.width}} Inches</p><br/>
+					<p>Depth : {{ph.depth}} Inches</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">WEIGHT</span><br/>
+					<p>{{ph.weight}} Ounces</p>
+				</div>
+			</div>
+			<div class="row" id="spec-details">
+				<span id="specHead" class="text-muted">Display</span>
+				<hr/>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">RESOLUTION</span><br/>
+					<p>Screen Resolution : {{ph.resolution}}</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">SCREEN SIZE</span><br/>
+					<p>{{ph.screen}} Inches</p>
+				</div>
+			</div>
+			<div class="row" id="spec-details">
+				<span id="specHead" class="text-muted">Performance</span>
+				<hr/>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">INTERNAL MEMORY</span><br/>
+					<p>{{ph.memory}} GB</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">PROCESSOR SPEED</span><br/>
+					<p>{{ph.processor}} Gigahertz</p>
+				</div>
+			</div>
+			<div class="row" id="spec-details">
+				<span id="specHead" class="text-muted">Camera</span>
+				<hr/>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">REAR CAMERA</span><br/>
+					<p>{{ph.rcamera}} Megapixels</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">FRONT CAMERA</span><br/>
+					<p>{{ph.fcamera}} Megapixels</p>
+				</div>
+			</div>
+			<div class="row" id="spec-details">
+				<span id="specHead" class="text-muted">Network & Connectivity</span>
+				<hr/>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">BLUETOOTH ENABLED</span><br/>
+					<p>Yes</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">WIFI ENABLED</span><br/>
+					<p>Yes</p>
+				</div>
+			</div>
+			<div class="row" id="spec-details">
+				<span id="specHead" class="text-muted">Operating System & Battery</span>
+				<hr/>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">OPERATING SYSTEM</span><br/>
+					<p>{{ph.os}}</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<span id="specBody" class="text-muted">BATTERY</span><br/>
+					<p>{{ph.battery}}</p>
+				</div>
+			</div>
+			
+		</div>	
+</div>

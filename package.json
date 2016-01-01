@@ -1,0 +1,22 @@
+{
+  "name": "gadgets",
+  "version": "1.0.0",
+  "description": "gadgets application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praneeth3457/gadgets.git"
+  },
+  "author": "Praneeth R R Veerlapally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praneeth3457/gadgets/issues"
+  },
+  "homepage": "https://github.com/praneeth3457/gadgets#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

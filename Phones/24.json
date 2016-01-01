@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "24",
+	"height" 	  : 5.6,
+	"width"  	  : 2.8,
+	"depth"	 	  : 0.3,
+	"weight"	  : 5.5,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 8,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "WINDOWS 8",
+	"processor"   : 2.1,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 1.2,
+	"resolution"  : "1280*720",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/24-nokia-lumia640xl-1.png",
+					"Pictures/24-nokia-lumia640xl-2.png",
+					"Pictures/24-nokia-lumia640xl-3.png",
+					"Pictures/24-nokia-lumia640xl-4.png"
+					]
+	}]

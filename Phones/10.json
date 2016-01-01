@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "10",
+	"height" 	  : 5.4,
+	"width"  	  : 2.7,
+	"depth"	 	  : 0.4,
+	"weight"	  : 4.8,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 8,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.2 KITKAT",
+	"processor"   : 1.2,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 1.3,
+	"resolution"  : "1280*720",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/10-lg-g3-1.png",
+					"Pictures/10-lg-g3-2.png",
+					"Pictures/10-lg-g3-3.png",
+					"Pictures/10-lg-g3-4.png"
+					]
+	}]

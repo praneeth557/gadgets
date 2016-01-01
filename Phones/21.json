@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "21",
+	"height" 	  : 5.0,
+	"width"  	  : 2.56,
+	"depth"	 	  : 0.34,
+	"weight"	  : 4.48,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.4 KITKAT",
+	"processor"   : 2.5,
+	"rcamera"	  : 20.7,
+	"fcamera"	  : 8.0,
+	"resolution"  : "1929*1080",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/21-sony-xperia-z3compact-1.png",
+					"Pictures/21-sony-xperia-z3compact-2.png",
+					"Pictures/21-sony-xperia-z3compact-3.png",
+					"Pictures/21-sony-xperia-z3compact-4.png"
+					]
+	}]

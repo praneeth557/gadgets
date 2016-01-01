@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>GADGETS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		 
+		<link rel="stylesheet" href="CSS/main.css">
+		<link rel="stylesheet" href="CSS/home.css">
+		<link rel="stylesheet" href="CSS/phone.css">
+		<link rel="stylesheet" href="CSS/cart.css">
+		
+		<!--Javascript links-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="Javascript/angular.js"></script>
+		<script type="text/javascript" src="Javascript/route.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="routing.js"></script>
+		<script type="text/javascript" src="Javascript/controller.js"></script>
+		
+		<script> 
+			$(document).ready(function(){
+				$("#flip").hover(function(){
+					$("#panel").slideToggle("slow");
+				});
+								
+				$(window).scroll(function(){
+				var breadcrump = $('.breadcrump'),
+					scroll = $(window).scrollTop();
+
+				  if (scroll >= 50) breadcrump.addClass('fixed');
+				  else breadcrump.removeClass('fixed');
+				});
+			});
+		</script>
+
+		
+	</head>
+	
+	<body class="fluid-container row" ng-app="mainApp" ng-controller="mainCtrl">
+	
+		<!--Main Logo-->
+		<div class="col-sm-12 hidden-xs" id="main_logo">
+			<span><a href="#/home">Gadgets</a></span>
+		</div>
+		
+		<!--Navigation Bar-->
+		<nav class="col-xs-12 navbar navbar-inverse navbar-static-top" id="navbar">
+		  <div class="breadcrump">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#/home"><img src="Pictures/nav_logo1.jpg"/></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav navbar-right" id="nav_menu">
+				<li><a href="#/home">HOME <span class="sr-only">(current)</span></a></li>
+				<li class="dropdown" id="flip">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
+				  <ul class="dropdown-menu" id="panel">
+					<li><a href="#/phones">PHONES</a></li>
+					<li><a href="#">TABLETS</a></li>
+					<li><a href="#">DESKTOPS</a></li>
+				  </ul>
+				</li>
+				<li><a href="#">ACCESSORIES</a></li>
+				<li><a href="#/cart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span style="padding:2px 10px;margin-left:5px;color:#FFf;font-size:15px;" class="badge">{{cart.length}}</span></a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		  </div>
+		</nav>
+		
+		<!--Body-->
+		<div class="mainPage">
+			<div ng-view>
+			
+			</div>
+		</div>
+		
+		
+		<!--Footer of the page-->
+		<nav id="nav_footer">
+			<div class="container" id="footer">
+				<div class="col-md-4">
+				&copy;All rights reserved
+				</div>
+				<div class="col-md-8">
+					<ul>
+						<li><a href="#">PHONES</a></li>
+						<li><a href="#">TABLETS</a></li>
+						<li><a href="#">DESKTOPS</a></li>
+						<li><a href="#">ACCESSORIES</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		
+		
+	</body>
+</html>

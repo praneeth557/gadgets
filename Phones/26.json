@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "26",
+	"height" 	  : 5.58,
+	"width"  	  : 2.78,
+	"depth"	 	  : 0.43,
+	"weight"	  : 5.25,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "ANDROID 4.4.4 KITKAT",
+	"processor"   : 1.2,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 2.0,
+	"resolution"  : "720*1280",
+	"screen"	  : 5.0,
+	"images"	  : [
+					"Pictures/26-motorola-motog-1.png",
+					"Pictures/26-motorola-motog-2.png",
+					"Pictures/26-motorola-motog-3.png",
+					"Pictures/26-motorola-motog-4.png"
+					]
+	}]

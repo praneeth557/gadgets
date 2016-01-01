@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "12",
+	"height" 	  : 6,
+	"width"  	  : 3,
+	"depth"	 	  : 0.3,
+	"weight"	  : 16,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 16,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "APPLE IOS 8",
+	"processor"   : 1.2,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 1.2,
+	"resolution"  : "1929*1080",
+	"screen"	  : 5.8,
+	"images"	  : [
+					"Pictures/12-apple-iphone6+-1.png",
+					"Pictures/12-apple-iphone6+-2.png",
+					"Pictures/12-apple-iphone6+-3.png",
+					"Pictures/12-apple-iphone6+-4.png"
+					]
+	}]

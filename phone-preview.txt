@@ -1,0 +1,19 @@
+[{
+		"image" : "",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY S6 EDGE",
+		"price" : "899.99"
+		},
+		{
+		"image" : "",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY S6",
+		"price" : "649.99"
+		},
+		{
+		"image" : "",
+		"brand" : "SAMSUNG",
+		"phone" : "SAMSUNG GALAXY S5",
+		"price" : "549.99"
+		}
+		]

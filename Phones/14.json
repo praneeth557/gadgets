@@ -1,0 +1,23 @@
+[{
+	"phId" 	  	  : "14",
+	"height" 	  : 4.9,
+	"width"  	  : 2.3,
+	"depth"	 	  : 0.35,
+	"weight"	  : 4.65,
+	"battery"     : "LITHIUM-ION",
+	"bluetooth"   : "YES",
+	"memory"      : 8,
+	"keyboard"    : "TOUCH SCREEN",
+	"os"		  : "APPLE IOS 7",
+	"processor"   : 1.2,
+	"rcamera"	  : 8.0,
+	"fcamera"	  : 1.2,
+	"resolution"  : "1136*640",
+	"screen"	  : 4,
+	"images"	  : [
+					"Pictures/14-apple-iphone5c-1.png",
+					"Pictures/14-apple-iphone5c-2.png",
+					"Pictures/14-apple-iphone5c-3.png",
+					"Pictures/14-apple-iphone5c-4.png"
+					]
+	}]
