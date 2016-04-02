@@ -9,4 +9,4 @@ phonecatServices.factory('Phone', ['$resource',
     return $resource('Phones/:phoneId.json', {}, {
       query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
     });
-  }]);
+}]);

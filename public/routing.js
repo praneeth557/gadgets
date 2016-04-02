@@ -66,7 +66,7 @@
         }
 	}]);
 	mainApp.controller('phoneCtrl', ["$scope", "$http", function($scope, $http){
-		$http.get('Phones/phone-preview.json')
+		$http.get('https://api.mongolab.com/api/1/databases/gadgets/collections/phone_preview?apiKey=myAPIKey', { params: {apiKey: "cd4welMGu-pPRQYrf4d2bcmcYnkRVC9g"} })
 		.success(function(response) {
 				$scope.phones = response;
 		});
